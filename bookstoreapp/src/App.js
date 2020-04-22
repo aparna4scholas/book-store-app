@@ -1,14 +1,17 @@
-import React from 'react';
-
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-       <h1> My Children's Book Store </h1>
-       
-    </div>
-  );
+import React, { Component } from 'react'
+import Header from './Header.js';
+export default class 
+ extends Component {
+  render() {
+    return (
+      <div className="App">
+       <Header /> 
+      </div>
+    )
+  }
 }
 
-export default App;
+
+
+
+
