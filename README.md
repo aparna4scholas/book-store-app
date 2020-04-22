@@ -3,7 +3,7 @@
 This App is  about Childrens' Book store.
 we have all varities of books for low prices.
 
-2.![wireframe](./Screen%20Shot%202020-04-21%20at%204.10.25%20PM.png)
+2.![wireframe](./Screen%20Shot%202020-04-22%20at%2010.01.08%20AM.png)
 3.Stateless Components
 Fiction.js
 Nonfiction.js
