@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Fiction from './components/Fiction.js';
-import Login from './components/Login.js';
+import Nonfiction from './components/Nonfiction.js';
 import Signup from './components/Signup.js';
 import Pictures from './components/Pictures.js';
 import {BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
