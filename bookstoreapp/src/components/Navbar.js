@@ -22,8 +22,7 @@ return(
        <Link style={navStyle} to='Search'>
        <li> Signup</li>
        </Link >
-       
-    </ul>
+        </ul>
 
   </nav>
  
