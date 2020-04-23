@@ -4,3 +4,34 @@
 
 
 
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 12vh;
+  background-color:lightcoral;
+  color:white;
+
+}
+.navbar_link {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.login_d1 {
+
+  margin:auto;
+  margin-top:40px ;
+  width: 400px;
+  height: 200px;
+ 
+
+  
+
+}
+
+
+
