@@ -2,8 +2,8 @@ import React from 'react';
 
 function Search () {
     return (
-        <div className="">
-        <label className="label_1"> Email</label>
+        <div className="div_first">
+        <label className="label_first"> Email</label>
         <input type="text" name="Email" placeholder=""/>
         
         </div>
