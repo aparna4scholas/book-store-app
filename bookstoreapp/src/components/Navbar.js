@@ -14,7 +14,7 @@ return(
    <h1> Children's Book store </h1>
    <ul className="navbar_link">
        <Link style={navStyle} to='/Fiction'>
-       <li> Home</li>
+       <li> Fiction</li>
        </Link>
        <Link style={navStyle} to='/Nonfiction'>
        <li> Login</li>
