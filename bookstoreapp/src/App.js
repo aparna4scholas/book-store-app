@@ -5,7 +5,7 @@ import Fiction from './components/Fiction.js';
 import Nonfiction from './components/Nonfiction.js';
 import Search from './components/Search.js';
 
-import {BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 
 function App() {
   
