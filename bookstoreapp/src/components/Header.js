@@ -6,3 +6,5 @@ function Header () {
         <h1> My Children Book Store</h1>
     )
 }
+
+export default Header;
