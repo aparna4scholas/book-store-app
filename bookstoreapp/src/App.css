@@ -19,6 +19,13 @@ nav {
   align-items: center;
   list-style: none;
 }
+.label_first {  
+  margin: 20px;
+  border-width: 10px;
+}
+.div_first {    
+  margin: 40px;
+}
 
  
 

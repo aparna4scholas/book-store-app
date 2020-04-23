@@ -6,10 +6,10 @@ function Search () {
         <label className="label_first"> Search</label>
         <input type="text" name="Search" placeholder="bookname"/>
         </div>
-        
+
         )
 
     }
     
 
-export default Login;
+export default Search;
