@@ -7,7 +7,7 @@ function Search () {
         <input type="text" name="Search" placeholder="bookname"/>
         
         </div>
-            )
+        )
 
     }
     
