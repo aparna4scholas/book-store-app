@@ -23,8 +23,7 @@ return(
        <li> Signup</li>
        </Link >
         </ul>
-
-  </nav>
+</nav>
  
 
 )
