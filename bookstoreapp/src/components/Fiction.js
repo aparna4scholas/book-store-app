@@ -7,3 +7,4 @@ function Fiction() {
     )
 
 }
+export default Fiction;
