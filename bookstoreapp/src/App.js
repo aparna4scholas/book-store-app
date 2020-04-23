@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.js';
 import Fiction from './components/Fiction.js';
 import Nonfiction from './components/Nonfiction.js';
 import Search from './components/Search.js';
-import Pictures from './components/Pictures.js';
+
 import {BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 
 function App() {
