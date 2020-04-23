@@ -11,20 +11,18 @@ return(
 
   
   <nav>
-   <h1> Picture Portal </h1>
+   <h1> Children's Book store </h1>
    <ul className="navbar_link">
-       <Link style={navStyle} to='/Home'>
+       <Link style={navStyle} to='/Fiction'>
        <li> Home</li>
        </Link>
-       <Link style={navStyle} to='/Login'>
+       <Link style={navStyle} to='/Nonfiction'>
        <li> Login</li>
        </Link>
-       <Link style={navStyle} to='Signup'>
+       <Link style={navStyle} to='Search'>
        <li> Signup</li>
        </Link >
-       <Link style={navStyle} to='Pictures'>
-       <li> Pictures</li>
-       </Link>
+       
        
    </ul>
 
