@@ -17,7 +17,7 @@ return(
        <li> Fiction</li>
        </Link>
        <Link style={navStyle} to='/Nonfiction'>
-       <li> Login</li>
+       <li> Nonfiction</li>
        </Link>
        <Link style={navStyle} to='Search'>
        <li> Signup</li>
