@@ -18,7 +18,7 @@ function App() {
           <Route path="/Fiction"  exact component={Fiction} />  
           <Route path="/Nonfiction" component={Nonfiction} /> 
           <Route path="/Search" component={Search} /> 
-          <Route path="/Pictures" component={Pictures} /> 
+      
           </Switch>
         </div>
       </Router>
