@@ -5,7 +5,7 @@ export default class
   render() {
     return (
       <div className="App">
-       <Header /> 
+      
       </div>
     )
   }
