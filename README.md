@@ -13,7 +13,7 @@ App.js
  --> create a new git repo.
  --> clone that file into vscode.
  -->create react app with file name bookstore.
- -->install react dom and axios.
+ -->install react dom,axios and CORS.
  -->create class components and function components under src file.
  -->inside navbar.js create navbar function to display title and list.
  -->navbar has header and list of items.
