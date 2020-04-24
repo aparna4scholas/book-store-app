@@ -8,9 +8,10 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
         books : []
     }
 
-    /* constructor (props){
+    constructor (props){
          super(props);
-         this.state = searchkey
+         this.state =  { 
+             books: []
      }
     displayResults =(e) => { 
          
