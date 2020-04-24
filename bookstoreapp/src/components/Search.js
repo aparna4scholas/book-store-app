@@ -18,8 +18,9 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
        const url = `${API_URL}/users/`;
        axios.get(url).then(response => response.data)
        then(data) => {
-           
-       }
+           this.setState( {books: data.books} )
+
+       })
 
 
    }
@@ -41,6 +42,6 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
     )
   }
 
-}
+    }
 export default Search;
 
