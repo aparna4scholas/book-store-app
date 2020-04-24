@@ -14,6 +14,7 @@ App.js
  --> clone that file into vscode
  -->create react app with file name bookstore
  -->installed react dom and axios .
+ -->created class components and function components under src file.
  -->
 
 
