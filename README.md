@@ -17,7 +17,7 @@ App.js
  -->create class components and function components under src file.
  -->inside navbar.js create navbar function to display title and list
  -->navbar has header and list of items
- --> link  list of items to the list
+ --> link  list of items to the list tag
  --> import components in app.js
  --> import BrowserRouter, Router, Switch, Route from react-dom to implement Router,Switch,Route tags.
 --> by using Router,Switch give exact path for the components.
