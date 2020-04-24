@@ -21,7 +21,7 @@ App.js
  --> import components in app.js
  --> import BrowserRouter, Router, Switch, Route from react-dom to implement Router,Switch,Route tags.
 --> by using Router,Switch give exact path for the components.
---> inside Search.js use axios get the data from api and render user data in browser.
+--> inside Search.js use axios to get the data from api and render user data in browser.
 
  
  app.css--> use flex and its properties to get perfect nav bar with spaces.
