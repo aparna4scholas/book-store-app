@@ -14,7 +14,11 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
              books: []
      }
 
-   
+   getData() {
+       const url = `${API_URL}/users/`;
+       
+
+   }
     
  
   render() {
