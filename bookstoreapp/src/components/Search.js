@@ -5,6 +5,7 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
 
  class Search extends Component{
     state = {
+        searchString : "placeholder1",
         books : []
     }
 
@@ -15,6 +16,9 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
      }
 
    getData() {
+       
+    alert(this.state.searchString);
+    
        const url = `${API_URL}/users/`;
        axios.get(url).then(response => response.data)
        .then((data) => {
@@ -29,7 +33,7 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
     return (
         <div className="div_first">
             <h1><label className="label"> Search</label></h1>
-            <input type="text" onChange={this.textresult} className="form-control" name="Search" placeholder="bookname" />
+            <input type="text" className="form-control" value={this.state.searchString} name="Search" placeholder="bookname" />
             <div className="div_second">
                 <button onClick={this.getData} className="btn btn-primary">submit</button>
             </div>
@@ -37,7 +41,7 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
              <div className="results-container">
                  {book._id}
                  <br></br>
-                 <img id={book._id} src={book.images.front.l.url} alt="No Image"/>
+                 <img id={book._id} src={book.images.front.l.url} alt="No value"/>
             </div>
             ))}
         </div>
