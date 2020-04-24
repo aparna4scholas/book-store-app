@@ -18,12 +18,14 @@ App.js
  -->inside navbar.js create navbar function to display title and list
  -->navbar has header and list of items
  --> link  list of items to the list
+ --> import components in app.js
+ --> import BrowserRouter, Router, Switch, Route from react-dom to implement Router,Switch,Route tags.
+--> by using Router,Switch give exact path for the components.
+--> inside Search.js use axios get the data from api and render user data in browser.
+
  app.css
  app.css--> use flex and its properties to get perfect nav bar with spaces.
  app.css-->define nabar link to get link to the list items.use flex properties.
  app.css--> for text box and button use bootstrap properties.
 
- --> import components in app.js
- --> import BrowserRouter, Router, Switch, Route from react-dom to implement Router,Switch,Route tags.
---> by using Router,Switch give exact path for the components.
---> inside Search.js render user data in browser.
+ 
