@@ -1,15 +1,28 @@
-import React from 'react';
-import Search from "./components/search";
+import React, { Component } from 'react';
+import ReactDom from 'react-dom'
 
-export class App  extends React.Component { 
-    render() {
+ class Search extends Component{
+    displayResults() {
+        
+    }
+     
+    
+ 
+  render() {
+      
     return (
         <div className="div_first">
-        <label className="label_first"> Search</label>
-        <input type="text" name="Search" placeholder="bookname"/>
+            <h1><label className="label"> Search</label></h1>
+            <input type="text" className="form-control" name="Search" placeholder="bookname" />
+            <div className="div_second">
+                <button onClick={this.displayResults} className="btn btn-primary">submit</button>
+            </div>
+            <div className="results-container">
+            </div>
         </div>
+    )
+  }
 
-        );
-
-    }
 }
+export default Search;
+

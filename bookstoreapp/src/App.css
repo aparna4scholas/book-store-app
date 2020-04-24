@@ -8,7 +8,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 12vh;
-  background-color:rgb(231, 231, 162);
+  background-color:rgb(42,14, 199);
   color:white;
 
 }
@@ -21,10 +21,19 @@ nav {
 }
 .label_first {  
   margin: 20px;
-  border-width: 10px;
+  border-width: 50px;
 }
 .div_first {    
   margin: 40px;
+}
+.div_second {
+
+  margin: 30px;
+}
+.button1 {
+
+width: 60px;
+height: 4px;
 }
 
  
