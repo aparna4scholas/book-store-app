@@ -10,19 +10,18 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
 
     constructor (props){
          super(props);
-         this.state =  { 
-             books: []
-         }
+
+         this.getData = this.getData.bind(this);
      }
 
    getData() {
        const url = `${API_URL}/users/`;
        axios.get(url).then(response => response.data)
-       then((data) => {
-           this.setState( {books: data.books} )
+       .then((data) => {
+           this.setState( {books: data.books})
 
-       }
-   }
+       })
+    }
     
  
   render() {
@@ -34,10 +33,15 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
             <div className="div_second">
                 <button onClick={this.getData} className="btn btn-primary">submit</button>
             </div>
-            this.
-            <div className="results-container">
+            {this.state.books.map((book) => (
+             <div className="results-container">
+                 {book._id}
+                 <br></br>
+                 <img id={book._id} src={book.images.front.l.url} alt="No Image"/>
             </div>
+            ))}
         </div>
+    
     )
   }
 
