@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from "./components/search";
 
-class App  extends React.Component { 
+export class App  extends React.Component { 
     render() {
     return (
         <div className="div_first">
@@ -12,5 +12,4 @@ class App  extends React.Component {
         );
 
     }
-    
-export default Search;
+}
