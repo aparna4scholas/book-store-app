@@ -3,7 +3,7 @@
 This App is  about Book store.
 we have all varities of books for low prices.
 
-2.![wireframe](./Screen%20Shot%202020-04-22%20at%2010.01.08%20AM.png)
+2.![wireframe](./Screen%20Shot%202020-04-24%20at%202.22.17%20PM.png)
 3.Stateless Components
 Fiction.js
 Nonfiction.js
