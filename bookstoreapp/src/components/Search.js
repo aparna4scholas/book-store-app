@@ -13,7 +13,7 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
          this.state =  { 
              books: []
      }
-    displayResults =(e) => { 
+    /*displayResults =(e) => { 
          
        e.preventDefault()
 
