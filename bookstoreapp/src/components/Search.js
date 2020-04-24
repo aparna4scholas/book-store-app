@@ -12,17 +12,16 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
          super(props);
          this.state =  { 
              books: []
+         }
      }
 
    getData() {
        const url = `${API_URL}/users/`;
        axios.get(url).then(response => response.data)
-       then(data) => {
+       then((data) => {
            this.setState( {books: data.books} )
 
-       })
-
-
+       }
    }
     
  
