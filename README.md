@@ -15,6 +15,7 @@ App.js
  -->create react app with file name bookstore
  -->install react dom and axios .
  -->create class components and function components under src file.
- -->
+ -->create a navbar to display title and list
+ -->navbar has 
 
 
