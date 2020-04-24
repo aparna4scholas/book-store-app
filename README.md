@@ -23,7 +23,7 @@ App.js
 --> by using Router,Switch give exact path for the components.
 --> inside Search.js use axios get the data from api and render user data in browser.
 
- app.css
+ 
  app.css--> use flex and its properties to get perfect nav bar with spaces.
  app.css-->define nabar link to get link to the list items.use flex properties.
  app.css--> for text box and button use bootstrap properties.
