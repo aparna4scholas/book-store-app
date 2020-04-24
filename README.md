@@ -9,5 +9,11 @@ Fiction.js
 Nonfiction.js
 4.Stateful components
 App.js
+4.pseudo code :
+ --> create a new git repo
+ --> clone that file into vscode
+ -->create react app with file name bookstore
+ -->installed react dom and axios .
+ -->
 
 
