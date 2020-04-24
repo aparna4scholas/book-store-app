@@ -24,7 +24,7 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
             <h1><label className="label"> Search</label></h1>
             <input type="text" onChange={this.textresult} className="form-control" name="Search" placeholder="bookname" />
             <div className="div_second">
-                <button onClick={this.displayResults} className="btn btn-primary">submit</button>
+                <button onClick={this.getData} className="btn btn-primary">submit</button>
             </div>
             this.
             <div className="results-container">
