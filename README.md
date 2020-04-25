@@ -20,8 +20,8 @@ App.js
  --> link  list of items to the list tag.
  --> import components in app.js.
  --> import BrowserRouter, Router, Switch, Route from react-dom to implement Router,Switch,Route tags.
---> by using Router,Switch give exact path for the components.
---> inside Search.js use axios to get the data from api and render user data in browser.
+--> implement exact path for Router,Switch.
+--> inside Search.js implement axios to get the data from api and render user data in browser.
 
  
  app.css--> implement  flex properties to get perfect nav bar with spaces.
