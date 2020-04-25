@@ -5,8 +5,9 @@ const API_URL = 'https://bookauthority.org/api/site/get-topic-data?topicId=rest_
 
  class Search extends Component{
     state = {
-        searchString : "placeholder1",
-        books : []
+        searchString : "Bookname",
+        books : [],
+        booksall : []
     }
 
     constructor (props){
