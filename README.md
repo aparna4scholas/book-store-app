@@ -25,7 +25,8 @@ App.js
 
  
  app.css--> use flex and its properties to get perfect nav bar with spaces.
- app.css-->define nabar link to get link to the list items.use flex properties.
+ app.css-->define nabar link to link  list items.use flex properties.
  app.css--> for text box and button use bootstrap properties.
+
 
  
