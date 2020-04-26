@@ -22,7 +22,7 @@ class App extends Component {
           <Route path="/Search" component={Search} /> 
       
           </Switch>
-        </div>
+        </div> 
       </Router>
       
     );
