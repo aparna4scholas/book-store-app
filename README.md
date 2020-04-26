@@ -26,7 +26,7 @@ App.js
  
  app.css--> 1.implement  flex properties to get perfect nav bar with spaces.
  2.implement  flex properties for  navbar link.
- 3.app.css-->for text box and button implement bootstrap properties.
+ 3.for text box and button implement bootstrap properties.
 
 
  
