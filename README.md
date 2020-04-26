@@ -1,7 +1,7 @@
 
 1.Mission Statement
 -->This App is  about Book store.
-we have all varities of books for low prices.search for exisiting books in the store get book information and price.
+we have all varieties of books for low prices.search for exisiting books in the store get book information and price.
 
 2.![wireframe](./Screen%20Shot%202020-04-24%20at%202.22.17%20PM.png)
 3.Stateless Components
