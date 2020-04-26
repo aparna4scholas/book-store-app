@@ -15,6 +15,7 @@ we have all varieties of books for low prices.search for exisiting books in the 
  --> clone that file into vscode.
  -->create react app with file name bookstore.
  -->install react dom,axios and CORS.
+ --> install bootstrap.
  -->create class components and function components under src file.
  -->inside navbar.js create navbar function to display title and list.
  -->navbar has header and list of items.
@@ -23,7 +24,7 @@ we have all varieties of books for low prices.search for exisiting books in the 
  --> import BrowserRouter, Router, Switch, Route from react-dom to implement Router,Switch,Route tags.
 --> implement exact path for Router,Switch.
 --> inside Search.js implement axios to get the data from api and render user data in browser.
---> install bootstrap.
+
 
 
  
