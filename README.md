@@ -5,11 +5,11 @@ we have all varities of books for low prices.search for exisiting books in the s
 
 2.![wireframe](./Screen%20Shot%202020-04-24%20at%202.22.17%20PM.png)
 3.Stateless Components
-Fiction.js
-Nonfiction.js
+-->Fiction.js
+-->Nonfiction.js
 4.Stateful components
-Search.js
-App.js
+-->Search.js
+-->App.js
 4.pseudo code :
  --> create a new git repo.
  --> clone that file into vscode.
