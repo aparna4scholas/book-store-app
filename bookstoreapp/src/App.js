@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Fiction from './components/Fiction.js';
@@ -6,9 +6,11 @@ import Nonfiction from './components/Nonfiction.js';
 import Search from './components/Search.js';
 
 import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
+import { render } from 'react-dom';
 
-function App() {
+class App extends Component {
   
+  render() {
     return (  
      <Router>
       <div className="App">
@@ -25,6 +27,7 @@ function App() {
       
     );
   }
+}
   
   
 
