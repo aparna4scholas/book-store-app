@@ -24,9 +24,9 @@ App.js
 --> inside Search.js implement axios to get the data from api and render user data in browser.
 
  
- app.css--> implement  flex properties to get perfect nav bar with spaces.
- app.css-->implement  flex properties for  navbar link.
- app.css-->for text box and button implement bootstrap properties.
+ app.css--> 1.implement  flex properties to get perfect nav bar with spaces.
+ 2.implement  flex properties for  navbar link.
+ 3.app.css-->for text box and button implement bootstrap properties.
 
 
  
