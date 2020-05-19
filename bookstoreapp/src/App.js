@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import './App.css';
 import Navbar from './components/Navbar.js';
-import Fiction from './components/Fiction.js';
-import Nonfiction from './components/Nonfiction.js';
+import Books from './components/Books.js';
+import Savebooks from './components/Savebooks.js';
 import Search from './components/Search.js';
 
 import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 import { render } from 'react-dom';
 
 class App extends Component {
-  
+
+
   render() {
     return (  
      <Router>
@@ -17,8 +18,8 @@ class App extends Component {
        
           <Navbar />
           <Switch>
-          <Route path="/Fiction"  exact component={Fiction} />  
-          <Route path="/Nonfiction" component={Nonfiction} /> 
+          <Route path="/Books"  component={Books} />  
+          <Route path="/Savebooks" component={Savebooks} /> 
           <Route path="/Search" component={Search} /> 
       
           </Switch>

@@ -13,11 +13,11 @@ return(
   <nav>
    <h1>  Book store </h1>
    <ul className="navbar_link">
-       <Link style={navStyle} to='/Fiction'>
-       <li> Fiction</li>
+       <Link style={navStyle} to='/Books'>
+       <li> Books</li>
        </Link>
-       <Link style={navStyle} to='/Nonfiction'>
-       <li> Nonfiction</li>
+       <Link  style={navStyle} to='/Savebooks'>
+       <li> Favbook</li>
        </Link>
        <Link style={navStyle} to='Search'>
        <li> Search</li>
